@@ -98,18 +98,18 @@ console.log("-----------------------------------------------------------")
 let removeRow = objectData.shift();
 
 //  Recereated first row then made second row.
-let startInsert = {  id: '42', name: 'Bruce', occupatioin: 'Kinght', age: '41'};
-let insertRow = { id: "48", name: "Barry", occupation: "Runner", age: "25" };
+let startInsert = {  id:'42', name:'Bruce', occupatioin:'Kinght', age:'41'};
+let insertRow = { id:"48", name:"Barry", occupation:"Runner", age:"25" };
 
 //  Use unshift to resinert forst and add second row.
-let addRows = objectData.unshift({ id: "42", name: "Bruce", occupation: "Knight", age: "41" },
-{ id: "48", name: "Barry", occupation: "Runner", age: "25" });
+let addRows = objectData.unshift({ id:"42", name:"Bruce", occupation:"Knight", age:"41" },
+{ id:"48", name:"Barry", occupation:"Runner", age:"25" });
 
 //  Use pop to delete last row
-removeRow = objectData.pop({ id: '98', name: 'Bill', occupatioin: "Doctor's Asst", age: '26' })
+removeRow = objectData.pop({ id:'98', name:'Bill', occupatioin:"Doctor's Asst", age:'26' })
 
 // use push to replace last row
-let addRow = objectData.push({ id: "7", name: "Bilbo", occupation: "None", age: "111" })
+let addRow = objectData.push({ id:"7", name:"Bilbo", occupation:"None", age:"111" })
 
 console.log(objectData)
 
